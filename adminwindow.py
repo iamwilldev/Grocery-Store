@@ -21,142 +21,63 @@ class Ui_AdminWindow(object):
         self.tab = QtWidgets.QWidget()
         self.tab.setObjectName("tab")
         self.label_3 = QtWidgets.QLabel(parent=self.tab)
-        self.label_3.setGeometry(QtCore.QRect(290, 0, 161, 31))
+        self.label_3.setGeometry(QtCore.QRect(270, 0, 231, 41))
         font = QtGui.QFont()
         font.setPointSize(20)
         self.label_3.setFont(font)
-        self.label_3.setStyleSheet("color: rgb(0, 0, 0);")
         self.label_3.setObjectName("label_3")
         self.label_4 = QtWidgets.QLabel(parent=self.tab)
         self.label_4.setGeometry(QtCore.QRect(60, 60, 71, 16))
-        self.label_4.setStyleSheet("color: rgb(0, 0, 0);")
         self.label_4.setObjectName("label_4")
         self.label_5 = QtWidgets.QLabel(parent=self.tab)
         self.label_5.setGeometry(QtCore.QRect(60, 100, 71, 16))
-        self.label_5.setStyleSheet("color: rgb(0, 0, 0);")
         self.label_5.setObjectName("label_5")
         self.label_6 = QtWidgets.QLabel(parent=self.tab)
         self.label_6.setGeometry(QtCore.QRect(60, 140, 71, 16))
-        self.label_6.setStyleSheet("color: rgb(0, 0, 0);")
         self.label_6.setObjectName("label_6")
         self.label_7 = QtWidgets.QLabel(parent=self.tab)
         self.label_7.setGeometry(QtCore.QRect(60, 180, 71, 16))
-        self.label_7.setStyleSheet("color: rgb(0, 0, 0);")
         self.label_7.setObjectName("label_7")
         self.label_8 = QtWidgets.QLabel(parent=self.tab)
         self.label_8.setGeometry(QtCore.QRect(60, 220, 71, 16))
-        self.label_8.setStyleSheet("color: rgb(0, 0, 0);")
         self.label_8.setObjectName("label_8")
         self.emp_nama = QtWidgets.QLineEdit(parent=self.tab)
         self.emp_nama.setGeometry(QtCore.QRect(160, 50, 241, 31))
-        self.emp_nama.setStyleSheet("border-radius: 10px;\n"
-"background-color: rgb(255, 255, 255);\n"
-"color: rgb(0, 0, 0);")
         self.emp_nama.setObjectName("emp_nama")
         self.emp_username = QtWidgets.QLineEdit(parent=self.tab)
         self.emp_username.setGeometry(QtCore.QRect(160, 90, 241, 31))
-        self.emp_username.setStyleSheet("border-radius: 10px;\n"
-"background-color: rgb(255, 255, 255);\n"
-"color: rgb(0, 0, 0);")
         self.emp_username.setObjectName("emp_username")
         self.emp_password = QtWidgets.QLineEdit(parent=self.tab)
         self.emp_password.setGeometry(QtCore.QRect(160, 130, 241, 31))
-        self.emp_password.setStyleSheet("border-radius: 10px;\n"
-"background-color: rgb(255, 255, 255);\n"
-"color: rgb(0, 0, 0);")
+        self.emp_password.setEchoMode(QtWidgets.QLineEdit.EchoMode.Password)
         self.emp_password.setObjectName("emp_password")
         self.emp_salary = QtWidgets.QLineEdit(parent=self.tab)
         self.emp_salary.setGeometry(QtCore.QRect(160, 170, 241, 31))
-        self.emp_salary.setStyleSheet("border-radius: 10px;\n"
-"background-color: rgb(255, 255, 255);\n"
-"color: rgb(0, 0, 0);")
         self.emp_salary.setObjectName("emp_salary")
         self.role = QtWidgets.QComboBox(parent=self.tab)
         self.role.setGeometry(QtCore.QRect(160, 210, 241, 31))
-        self.role.setStyleSheet("border-radius: 10px;\n"
-"background-color: rgb(255, 255, 255);\n"
-"color: rgb(0, 0, 0);")
         self.role.setObjectName("role")
         self.emp_tambah = QtWidgets.QPushButton(parent=self.tab)
         self.emp_tambah.setGeometry(QtCore.QRect(240, 260, 161, 41))
-        self.emp_tambah.setStyleSheet("QPushButton {\n"
-"    color: white;\n"
-"    border-radius: 10px;\n"
-"    background: rgb(13, 110, 253)\n"
-"}\n"
-"\n"
-"QPushButton:hover {\n"
-"    background: rgba(13, 110, 253, 220);\n"
-"}\n"
-"\n"
-"QPushButton:pressed {\n"
-"    background: rgba(13, 110, 253, 200);\n"
-"}\n"
-"\n"
-"")
         self.emp_tambah.setObjectName("emp_tambah")
         self.label_9 = QtWidgets.QLabel(parent=self.tab)
         self.label_9.setGeometry(QtCore.QRect(430, 50, 91, 16))
-        self.label_9.setStyleSheet("color: rgb(0, 0, 0);")
         self.label_9.setObjectName("label_9")
         self.emp_refresh = QtWidgets.QPushButton(parent=self.tab)
         self.emp_refresh.setGeometry(QtCore.QRect(430, 380, 81, 31))
-        self.emp_refresh.setStyleSheet("QPushButton {\n"
-"    color: white;\n"
-"    border-radius: 10px;\n"
-"    background-color: rgb(108, 117, 125);\n"
-"}\n"
-"\n"
-"QPushButton:hover {\n"
-"    background: rgba(108, 117, 125, 220);\n"
-"}\n"
-"\n"
-"QPushButton:pressed {\n"
-"    background: rgba(108, 117, 125, 200);\n"
-"}")
         self.emp_refresh.setObjectName("emp_refresh")
         self.emp_hapus = QtWidgets.QPushButton(parent=self.tab)
         self.emp_hapus.setGeometry(QtCore.QRect(530, 380, 81, 31))
-        self.emp_hapus.setStyleSheet("QPushButton {\n"
-"    color: white;\n"
-"    border-radius: 10px;\n"
-"    background-color: rgb(220, 53, 69);\n"
-"}\n"
-"\n"
-"QPushButton:hover {\n"
-"    background: rgba(220, 53, 69, 220);\n"
-"}\n"
-"\n"
-"QPushButton:pressed {\n"
-"    background: rgba(220, 53, 69, 200);\n"
-"}")
         self.emp_hapus.setObjectName("emp_hapus")
         self.emp_edit = QtWidgets.QPushButton(parent=self.tab)
         self.emp_edit.setGeometry(QtCore.QRect(630, 380, 81, 31))
-        self.emp_edit.setStyleSheet("QPushButton {\n"
-"    color: white;\n"
-"    border-radius: 10px;\n"
-"    background-color: rgb(25, 135, 84);\n"
-"}\n"
-"\n"
-"QPushButton:hover {\n"
-"    background: rgba(25, 135, 84, 220);\n"
-"}\n"
-"\n"
-"QPushButton:pressed {\n"
-"    background: rgba(25, 135, 84, 200);\n"
-"}")
         self.emp_edit.setObjectName("emp_edit")
         self.label_10 = QtWidgets.QLabel(parent=self.tab)
         self.label_10.setGeometry(QtCore.QRect(0, 0, 811, 601))
-        self.label_10.setStyleSheet("border-image: url(Green and Orange Modern Grocery Store Banner Landscape (1).png);")
         self.label_10.setText("")
         self.label_10.setObjectName("label_10")
         self.table_emp = QtWidgets.QTableWidget(parent=self.tab)
         self.table_emp.setGeometry(QtCore.QRect(430, 70, 281, 301))
-        self.table_emp.setStyleSheet("border-radius: 10px;\n"
-"background-color: rgb(255, 255, 255);\n"
-"color: rgb(0, 0, 0);")
         self.table_emp.setObjectName("table_emp")
         self.table_emp.setColumnCount(0)
         self.table_emp.setRowCount(0)
@@ -183,165 +104,76 @@ class Ui_AdminWindow(object):
         self.tab_2.setObjectName("tab_2")
         self.barang_sellprice = QtWidgets.QLineEdit(parent=self.tab_2)
         self.barang_sellprice.setGeometry(QtCore.QRect(160, 130, 241, 31))
-        self.barang_sellprice.setStyleSheet("border-radius: 10px;\n"
-"background-color: rgb(255, 255, 255);\n"
-"color: rgb(0, 0, 0);")
         self.barang_sellprice.setObjectName("barang_sellprice")
         self.label_22 = QtWidgets.QLabel(parent=self.tab_2)
         self.label_22.setGeometry(QtCore.QRect(430, 50, 91, 16))
-        self.label_22.setStyleSheet("color: rgb(0, 0, 0);")
         self.label_22.setObjectName("label_22")
         self.barang_hapus = QtWidgets.QPushButton(parent=self.tab_2)
         self.barang_hapus.setGeometry(QtCore.QRect(530, 380, 81, 31))
-        self.barang_hapus.setStyleSheet("QPushButton {\n"
-"    color: white;\n"
-"    border-radius: 10px;\n"
-"    background-color: rgb(220, 53, 69);\n"
-"}\n"
-"\n"
-"QPushButton:hover {\n"
-"    background: rgba(220, 53, 69, 220);\n"
-"}\n"
-"\n"
-"QPushButton:pressed {\n"
-"    background: rgba(220, 53, 69, 200);\n"
-"}")
         self.barang_hapus.setObjectName("barang_hapus")
         self.barang_buyprice = QtWidgets.QLineEdit(parent=self.tab_2)
         self.barang_buyprice.setGeometry(QtCore.QRect(160, 90, 241, 31))
-        self.barang_buyprice.setStyleSheet("border-radius: 10px;\n"
-"background-color: rgb(255, 255, 255);\n"
-"color: rgb(0, 0, 0);")
         self.barang_buyprice.setObjectName("barang_buyprice")
         self.label_23 = QtWidgets.QLabel(parent=self.tab_2)
         self.label_23.setGeometry(QtCore.QRect(60, 60, 71, 16))
-        self.label_23.setStyleSheet("color: rgb(0, 0, 0);")
         self.label_23.setObjectName("label_23")
         self.barang_nama = QtWidgets.QLineEdit(parent=self.tab_2)
         self.barang_nama.setGeometry(QtCore.QRect(160, 50, 241, 31))
-        self.barang_nama.setStyleSheet("border-radius: 10px;\n"
-"background-color: rgb(255, 255, 255);\n"
-"color: rgb(0, 0, 0);")
         self.barang_nama.setObjectName("barang_nama")
         self.label_24 = QtWidgets.QLabel(parent=self.tab_2)
         self.label_24.setGeometry(QtCore.QRect(60, 100, 71, 16))
-        self.label_24.setStyleSheet("color: rgb(0, 0, 0);")
         self.label_24.setObjectName("label_24")
         self.label_25 = QtWidgets.QLabel(parent=self.tab_2)
-        self.label_25.setGeometry(QtCore.QRect(300, 0, 161, 31))
+        self.label_25.setGeometry(QtCore.QRect(290, 0, 191, 41))
         font = QtGui.QFont()
         font.setPointSize(20)
         self.label_25.setFont(font)
-        self.label_25.setStyleSheet("color: rgb(0, 0, 0);")
         self.label_25.setObjectName("label_25")
         self.barang_edit = QtWidgets.QPushButton(parent=self.tab_2)
         self.barang_edit.setGeometry(QtCore.QRect(630, 380, 81, 31))
-        self.barang_edit.setStyleSheet("QPushButton {\n"
-"    color: white;\n"
-"    border-radius: 10px;\n"
-"    background-color: rgb(25, 135, 84);\n"
-"}\n"
-"\n"
-"QPushButton:hover {\n"
-"    background: rgba(25, 135, 84, 220);\n"
-"}\n"
-"\n"
-"QPushButton:pressed {\n"
-"    background: rgba(25, 135, 84, 200);\n"
-"}")
         self.barang_edit.setObjectName("barang_edit")
         self.barang_tambah = QtWidgets.QPushButton(parent=self.tab_2)
         self.barang_tambah.setGeometry(QtCore.QRect(240, 300, 161, 41))
-        self.barang_tambah.setStyleSheet("QPushButton {\n"
-"    color: white;\n"
-"    border-radius: 10px;\n"
-"    background: rgb(13, 110, 253)\n"
-"}\n"
-"\n"
-"QPushButton:hover {\n"
-"    background: rgba(13, 110, 253, 220);\n"
-"}\n"
-"\n"
-"QPushButton:pressed {\n"
-"    background: rgba(13, 110, 253, 200);\n"
-"}\n"
-"\n"
-"")
         self.barang_tambah.setObjectName("barang_tambah")
         self.label_26 = QtWidgets.QLabel(parent=self.tab_2)
         self.label_26.setGeometry(QtCore.QRect(60, 140, 71, 16))
-        self.label_26.setStyleSheet("color: rgb(0, 0, 0);")
         self.label_26.setObjectName("label_26")
         self.barang_refresh = QtWidgets.QPushButton(parent=self.tab_2)
         self.barang_refresh.setGeometry(QtCore.QRect(430, 380, 81, 31))
-        self.barang_refresh.setStyleSheet("QPushButton {\n"
-"    color: white;\n"
-"    border-radius: 10px;\n"
-"    background-color: rgb(108, 117, 125);\n"
-"}\n"
-"\n"
-"QPushButton:hover {\n"
-"    background: rgba(108, 117, 125, 220);\n"
-"}\n"
-"\n"
-"QPushButton:pressed {\n"
-"    background: rgba(108, 117, 125, 200);\n"
-"}")
         self.barang_refresh.setObjectName("barang_refresh")
         self.label_27 = QtWidgets.QLabel(parent=self.tab_2)
         self.label_27.setGeometry(QtCore.QRect(60, 180, 71, 16))
-        self.label_27.setStyleSheet("color: rgb(0, 0, 0);")
         self.label_27.setObjectName("label_27")
         self.label_28 = QtWidgets.QLabel(parent=self.tab_2)
         self.label_28.setGeometry(QtCore.QRect(60, 220, 71, 16))
-        self.label_28.setStyleSheet("color: rgb(0, 0, 0);")
         self.label_28.setObjectName("label_28")
         self.label_29 = QtWidgets.QLabel(parent=self.tab_2)
         self.label_29.setGeometry(QtCore.QRect(60, 260, 71, 16))
-        self.label_29.setStyleSheet("color: rgb(0, 0, 0);")
         self.label_29.setObjectName("label_29")
         self.barang_quantity = QtWidgets.QLineEdit(parent=self.tab_2)
         self.barang_quantity.setGeometry(QtCore.QRect(160, 170, 241, 31))
-        self.barang_quantity.setStyleSheet("border-radius: 10px;\n"
-"background-color: rgb(255, 255, 255);\n"
-"color: rgb(0, 0, 0);")
         self.barang_quantity.setObjectName("barang_quantity")
         self.barang_supplier = QtWidgets.QComboBox(parent=self.tab_2)
         self.barang_supplier.setGeometry(QtCore.QRect(160, 210, 241, 31))
-        self.barang_supplier.setStyleSheet("border-radius: 10px;\n"
-"background-color: rgb(255, 255, 255);\n"
-"color: rgb(0, 0, 0);")
         self.barang_supplier.setObjectName("barang_supplier")
         self.barang_expired = QtWidgets.QDateEdit(parent=self.tab_2)
         self.barang_expired.setGeometry(QtCore.QRect(160, 250, 241, 31))
-        self.barang_expired.setStyleSheet("border-radius: 10px;\n"
-"background-color: rgb(255, 255, 255);\n"
-"color: rgb(0, 0, 0);")
         self.barang_expired.setObjectName("barang_expired")
         self.label_30 = QtWidgets.QLabel(parent=self.tab_2)
         self.label_30.setGeometry(QtCore.QRect(60, 340, 101, 16))
-        self.label_30.setStyleSheet("color: rgb(0, 0, 0);")
         self.label_30.setObjectName("label_30")
         self.barang_inputcheck = QtWidgets.QLineEdit(parent=self.tab_2)
         self.barang_inputcheck.setGeometry(QtCore.QRect(60, 370, 241, 41))
-        self.barang_inputcheck.setStyleSheet("border-radius: 10px;\n"
-"background-color: rgb(255, 255, 255);\n"
-"color: rgb(0, 0, 0);")
         self.barang_inputcheck.setObjectName("barang_inputcheck")
         self.barang_check = QtWidgets.QPushButton(parent=self.tab_2)
         self.barang_check.setGeometry(QtCore.QRect(320, 370, 81, 41))
-        self.barang_check.setStyleSheet("color: rgb(0, 0, 0);")
         self.barang_check.setObjectName("barang_check")
         self.label_11 = QtWidgets.QLabel(parent=self.tab_2)
         self.label_11.setGeometry(QtCore.QRect(-10, 0, 811, 601))
-        self.label_11.setStyleSheet("border-image: url(Green and Orange Modern Grocery Store Banner Landscape (1).png);")
         self.label_11.setText("")
         self.label_11.setObjectName("label_11")
         self.table_barang = QtWidgets.QTableWidget(parent=self.tab_2)
         self.table_barang.setGeometry(QtCore.QRect(430, 70, 281, 301))
-        self.table_barang.setStyleSheet("border-radius: 10px;\n"
-"background-color: rgb(255, 255, 255);\n"
-"color: rgb(0, 0, 0);")
         self.table_barang.setObjectName("table_barang")
         self.table_barang.setColumnCount(0)
         self.table_barang.setRowCount(0)
@@ -373,121 +205,49 @@ class Ui_AdminWindow(object):
         self.tab_3.setObjectName("tab_3")
         self.supp_nama = QtWidgets.QLineEdit(parent=self.tab_3)
         self.supp_nama.setGeometry(QtCore.QRect(160, 50, 241, 31))
-        self.supp_nama.setStyleSheet("border-radius: 10px;\n"
-"background-color: rgb(255, 255, 255);\n"
-"color: rgb(0, 0, 0);")
         self.supp_nama.setObjectName("supp_nama")
         self.supp_edit = QtWidgets.QPushButton(parent=self.tab_3)
         self.supp_edit.setGeometry(QtCore.QRect(630, 380, 81, 31))
-        self.supp_edit.setStyleSheet("QPushButton {\n"
-"    color: white;\n"
-"    border-radius: 10px;\n"
-"    background-color: rgb(25, 135, 84);\n"
-"}\n"
-"\n"
-"QPushButton:hover {\n"
-"    background: rgba(25, 135, 84, 220);\n"
-"}\n"
-"\n"
-"QPushButton:pressed {\n"
-"    background: rgba(25, 135, 84, 200);\n"
-"}")
         self.supp_edit.setObjectName("supp_edit")
         self.supp_refresh = QtWidgets.QPushButton(parent=self.tab_3)
         self.supp_refresh.setGeometry(QtCore.QRect(430, 380, 81, 31))
-        self.supp_refresh.setStyleSheet("QPushButton {\n"
-"    color: white;\n"
-"    border-radius: 10px;\n"
-"    background-color: rgb(108, 117, 125);\n"
-"}\n"
-"\n"
-"QPushButton:hover {\n"
-"    background: rgba(108, 117, 125, 220);\n"
-"}\n"
-"\n"
-"QPushButton:pressed {\n"
-"    background: rgba(108, 117, 125, 200);\n"
-"}")
         self.supp_refresh.setObjectName("supp_refresh")
         self.supp_tambah = QtWidgets.QPushButton(parent=self.tab_3)
         self.supp_tambah.setGeometry(QtCore.QRect(240, 180, 161, 41))
-        self.supp_tambah.setStyleSheet("QPushButton {\n"
-"    color: white;\n"
-"    border-radius: 10px;\n"
-"    background: rgb(13, 110, 253)\n"
-"}\n"
-"\n"
-"QPushButton:hover {\n"
-"    background: rgba(13, 110, 253, 220);\n"
-"}\n"
-"\n"
-"QPushButton:pressed {\n"
-"    background: rgba(13, 110, 253, 200);\n"
-"}\n"
-"\n"
-"")
         self.supp_tambah.setObjectName("supp_tambah")
         self.label_12 = QtWidgets.QLabel(parent=self.tab_3)
         self.label_12.setGeometry(QtCore.QRect(60, 100, 71, 16))
-        self.label_12.setStyleSheet("color: rgb(0, 0, 0);")
         self.label_12.setObjectName("label_12")
         self.label_13 = QtWidgets.QLabel(parent=self.tab_3)
         self.label_13.setGeometry(QtCore.QRect(60, 140, 71, 16))
-        self.label_13.setStyleSheet("color: rgb(0, 0, 0);")
         self.label_13.setObjectName("label_13")
         self.label_14 = QtWidgets.QLabel(parent=self.tab_3)
-        self.label_14.setGeometry(QtCore.QRect(300, 0, 151, 31))
+        self.label_14.setGeometry(QtCore.QRect(280, 0, 211, 41))
         font = QtGui.QFont()
         font.setPointSize(20)
         self.label_14.setFont(font)
-        self.label_14.setStyleSheet("color: rgb(0, 0, 0);")
         self.label_14.setObjectName("label_14")
         self.label_15 = QtWidgets.QLabel(parent=self.tab_3)
         self.label_15.setGeometry(QtCore.QRect(60, 60, 71, 16))
-        self.label_15.setStyleSheet("color: rgb(0, 0, 0);")
         self.label_15.setObjectName("label_15")
         self.label_16 = QtWidgets.QLabel(parent=self.tab_3)
         self.label_16.setGeometry(QtCore.QRect(430, 50, 91, 16))
-        self.label_16.setStyleSheet("color: rgb(0, 0, 0);")
         self.label_16.setObjectName("label_16")
         self.supp_contact = QtWidgets.QLineEdit(parent=self.tab_3)
         self.supp_contact.setGeometry(QtCore.QRect(160, 90, 241, 31))
-        self.supp_contact.setStyleSheet("border-radius: 10px;\n"
-"background-color: rgb(255, 255, 255);\n"
-"color: rgb(0, 0, 0);")
         self.supp_contact.setObjectName("supp_contact")
         self.supp_alamat = QtWidgets.QLineEdit(parent=self.tab_3)
         self.supp_alamat.setGeometry(QtCore.QRect(160, 130, 241, 31))
-        self.supp_alamat.setStyleSheet("border-radius: 10px;\n"
-"background-color: rgb(255, 255, 255);\n"
-"color: rgb(0, 0, 0);")
         self.supp_alamat.setObjectName("supp_alamat")
         self.supp_hapus = QtWidgets.QPushButton(parent=self.tab_3)
         self.supp_hapus.setGeometry(QtCore.QRect(530, 380, 81, 31))
-        self.supp_hapus.setStyleSheet("QPushButton {\n"
-"    color: white;\n"
-"    border-radius: 10px;\n"
-"    background-color: rgb(220, 53, 69);\n"
-"}\n"
-"\n"
-"QPushButton:hover {\n"
-"    background: rgba(220, 53, 69, 220);\n"
-"}\n"
-"\n"
-"QPushButton:pressed {\n"
-"    background: rgba(220, 53, 69, 200);\n"
-"}")
         self.supp_hapus.setObjectName("supp_hapus")
         self.label_31 = QtWidgets.QLabel(parent=self.tab_3)
         self.label_31.setGeometry(QtCore.QRect(-10, 0, 811, 601))
-        self.label_31.setStyleSheet("border-image: url(Green and Orange Modern Grocery Store Banner Landscape (1).png);")
         self.label_31.setText("")
         self.label_31.setObjectName("label_31")
         self.table_supp = QtWidgets.QTableWidget(parent=self.tab_3)
         self.table_supp.setGeometry(QtCore.QRect(430, 70, 281, 301))
-        self.table_supp.setStyleSheet("border-radius: 10px;\n"
-"background-color: rgb(255, 255, 255);\n"
-"color: rgb(0, 0, 0);")
         self.table_supp.setObjectName("table_supp")
         self.table_supp.setColumnCount(0)
         self.table_supp.setRowCount(0)
@@ -510,121 +270,49 @@ class Ui_AdminWindow(object):
         self.tab_4.setObjectName("tab_4")
         self.cust_tambah = QtWidgets.QPushButton(parent=self.tab_4)
         self.cust_tambah.setGeometry(QtCore.QRect(240, 180, 161, 41))
-        self.cust_tambah.setStyleSheet("QPushButton {\n"
-"    color: white;\n"
-"    border-radius: 10px;\n"
-"    background: rgb(13, 110, 253)\n"
-"}\n"
-"\n"
-"QPushButton:hover {\n"
-"    background: rgba(13, 110, 253, 220);\n"
-"}\n"
-"\n"
-"QPushButton:pressed {\n"
-"    background: rgba(13, 110, 253, 200);\n"
-"}\n"
-"\n"
-"")
         self.cust_tambah.setObjectName("cust_tambah")
         self.cust_edit = QtWidgets.QPushButton(parent=self.tab_4)
         self.cust_edit.setGeometry(QtCore.QRect(630, 380, 81, 31))
-        self.cust_edit.setStyleSheet("QPushButton {\n"
-"    color: white;\n"
-"    border-radius: 10px;\n"
-"    background-color: rgb(25, 135, 84);\n"
-"}\n"
-"\n"
-"QPushButton:hover {\n"
-"    background: rgba(25, 135, 84, 220);\n"
-"}\n"
-"\n"
-"QPushButton:pressed {\n"
-"    background: rgba(25, 135, 84, 200);\n"
-"}")
         self.cust_edit.setObjectName("cust_edit")
         self.label_17 = QtWidgets.QLabel(parent=self.tab_4)
         self.label_17.setGeometry(QtCore.QRect(60, 100, 71, 16))
-        self.label_17.setStyleSheet("color: rgb(0, 0, 0);")
         self.label_17.setObjectName("label_17")
         self.cust_nama = QtWidgets.QLineEdit(parent=self.tab_4)
         self.cust_nama.setGeometry(QtCore.QRect(160, 50, 241, 31))
-        self.cust_nama.setStyleSheet("border-radius: 10px;\n"
-"background-color: rgb(255, 255, 255);\n"
-"color: rgb(0, 0, 0);")
         self.cust_nama.setObjectName("cust_nama")
         self.cust_alamat = QtWidgets.QLineEdit(parent=self.tab_4)
         self.cust_alamat.setGeometry(QtCore.QRect(160, 130, 241, 31))
-        self.cust_alamat.setStyleSheet("border-radius: 10px;\n"
-"background-color: rgb(255, 255, 255);\n"
-"color: rgb(0, 0, 0);")
         self.cust_alamat.setObjectName("cust_alamat")
         self.cust_hapus = QtWidgets.QPushButton(parent=self.tab_4)
         self.cust_hapus.setGeometry(QtCore.QRect(530, 380, 81, 31))
-        self.cust_hapus.setStyleSheet("QPushButton {\n"
-"    color: white;\n"
-"    border-radius: 10px;\n"
-"    background-color: rgb(220, 53, 69);\n"
-"}\n"
-"\n"
-"QPushButton:hover {\n"
-"    background: rgba(220, 53, 69, 220);\n"
-"}\n"
-"\n"
-"QPushButton:pressed {\n"
-"    background: rgba(220, 53, 69, 200);\n"
-"}")
         self.cust_hapus.setObjectName("cust_hapus")
         self.cust_contact = QtWidgets.QLineEdit(parent=self.tab_4)
         self.cust_contact.setGeometry(QtCore.QRect(160, 90, 241, 31))
-        self.cust_contact.setStyleSheet("border-radius: 10px;\n"
-"background-color: rgb(255, 255, 255);\n"
-"color: rgb(0, 0, 0);")
         self.cust_contact.setObjectName("cust_contact")
         self.cust_refresh = QtWidgets.QPushButton(parent=self.tab_4)
         self.cust_refresh.setGeometry(QtCore.QRect(430, 380, 81, 31))
-        self.cust_refresh.setStyleSheet("QPushButton {\n"
-"    color: white;\n"
-"    border-radius: 10px;\n"
-"    background-color: rgb(108, 117, 125);\n"
-"}\n"
-"\n"
-"QPushButton:hover {\n"
-"    background: rgba(108, 117, 125, 220);\n"
-"}\n"
-"\n"
-"QPushButton:pressed {\n"
-"    background: rgba(108, 117, 125, 200);\n"
-"}")
         self.cust_refresh.setObjectName("cust_refresh")
         self.label_18 = QtWidgets.QLabel(parent=self.tab_4)
         self.label_18.setGeometry(QtCore.QRect(60, 140, 71, 16))
-        self.label_18.setStyleSheet("color: rgb(0, 0, 0);")
         self.label_18.setObjectName("label_18")
         self.label_19 = QtWidgets.QLabel(parent=self.tab_4)
         self.label_19.setGeometry(QtCore.QRect(430, 50, 91, 16))
-        self.label_19.setStyleSheet("color: rgb(0, 0, 0);")
         self.label_19.setObjectName("label_19")
         self.label_20 = QtWidgets.QLabel(parent=self.tab_4)
         self.label_20.setGeometry(QtCore.QRect(60, 60, 71, 16))
-        self.label_20.setStyleSheet("color: rgb(0, 0, 0);")
         self.label_20.setObjectName("label_20")
         self.label_21 = QtWidgets.QLabel(parent=self.tab_4)
-        self.label_21.setGeometry(QtCore.QRect(300, 0, 161, 31))
+        self.label_21.setGeometry(QtCore.QRect(270, 0, 221, 41))
         font = QtGui.QFont()
         font.setPointSize(20)
         self.label_21.setFont(font)
-        self.label_21.setStyleSheet("color: rgb(0, 0, 0);")
         self.label_21.setObjectName("label_21")
         self.label_32 = QtWidgets.QLabel(parent=self.tab_4)
         self.label_32.setGeometry(QtCore.QRect(-10, 0, 811, 601))
-        self.label_32.setStyleSheet("border-image: url(Green and Orange Modern Grocery Store Banner Landscape (1).png);")
         self.label_32.setText("")
         self.label_32.setObjectName("label_32")
         self.table_cust = QtWidgets.QTableWidget(parent=self.tab_4)
         self.table_cust.setGeometry(QtCore.QRect(430, 70, 281, 301))
-        self.table_cust.setStyleSheet("border-radius: 10px;\n"
-"background-color: rgb(255, 255, 255);\n"
-"color: rgb(0, 0, 0);")
         self.table_cust.setObjectName("table_cust")
         self.table_cust.setColumnCount(0)
         self.table_cust.setRowCount(0)
@@ -645,12 +333,10 @@ class Ui_AdminWindow(object):
         self.tabWidget.addTab(self.tab_4, "")
         AdminWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(parent=AdminWindow)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 800, 36))
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 800, 22))
         self.menubar.setObjectName("menubar")
         self.menuPengguna = QtWidgets.QMenu(parent=self.menubar)
         self.menuPengguna.setObjectName("menuPengguna")
-        self.menuKelola = QtWidgets.QMenu(parent=self.menubar)
-        self.menuKelola.setObjectName("menuKelola")
         self.menuBantuan = QtWidgets.QMenu(parent=self.menubar)
         self.menuBantuan.setObjectName("menuBantuan")
         AdminWindow.setMenuBar(self.menubar)
@@ -677,27 +363,20 @@ class Ui_AdminWindow(object):
         self.actionDokumentasi.setObjectName("actionDokumentasi")
         self.actionTeam = QtGui.QAction(parent=AdminWindow)
         self.actionTeam.setObjectName("actionTeam")
-        self.menuPengguna.addAction(self.actionLogin)
-        self.menuPengguna.addAction(self.actionProfil)
         self.menuPengguna.addAction(self.actionLogout)
-        self.menuKelola.addAction(self.actionBarang)
-        self.menuKelola.addAction(self.actionPengguna)
-        self.menuKelola.addAction(self.actionCustomer)
-        self.menuKelola.addAction(self.actionTransaksi)
         self.menuBantuan.addAction(self.actionTentang)
         self.menuBantuan.addAction(self.actionDokumentasi)
-        self.menuBantuan.addAction(self.actionTeam)
         self.menubar.addAction(self.menuPengguna.menuAction())
-        self.menubar.addAction(self.menuKelola.menuAction())
         self.menubar.addAction(self.menuBantuan.menuAction())
 
         self.retranslateUi(AdminWindow)
-        self.tabWidget.setCurrentIndex(0)
+        self.tabWidget.setCurrentIndex(1)
+        self.actionLogout.triggered.connect(AdminWindow.close) # type: ignore
         QtCore.QMetaObject.connectSlotsByName(AdminWindow)
 
     def retranslateUi(self, AdminWindow):
         _translate = QtCore.QCoreApplication.translate
-        AdminWindow.setWindowTitle(_translate("AdminWindow", "MainWindow"))
+        AdminWindow.setWindowTitle(_translate("AdminWindow", "Toko Kelontong | Mode: Administrator"))
         self.label_3.setText(_translate("AdminWindow", "Manage Pengguna"))
         self.label_4.setText(_translate("AdminWindow", "Nama"))
         self.label_5.setText(_translate("AdminWindow", "Username"))
@@ -746,15 +425,17 @@ class Ui_AdminWindow(object):
         self.label_21.setText(_translate("AdminWindow", "Manage Customer"))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_4), _translate("AdminWindow", "Manage Customer"))
         self.menuPengguna.setTitle(_translate("AdminWindow", "Pengguna"))
-        self.menuKelola.setTitle(_translate("AdminWindow", "Kelola"))
         self.menuBantuan.setTitle(_translate("AdminWindow", "Bantuan"))
         self.actionLogin.setText(_translate("AdminWindow", "Login"))
         self.actionProfil.setText(_translate("AdminWindow", "Profil"))
         self.actionLogout.setText(_translate("AdminWindow", "Logout"))
+        self.actionLogout.setShortcut(_translate("AdminWindow", "Ctrl+Q"))
         self.actionBarang.setText(_translate("AdminWindow", "Barang"))
         self.actionPengguna.setText(_translate("AdminWindow", "Pengguna"))
         self.actionCustomer.setText(_translate("AdminWindow", "Customer"))
         self.actionTransaksi.setText(_translate("AdminWindow", "Transaksi"))
         self.actionTentang.setText(_translate("AdminWindow", "Tentang"))
+        self.actionTentang.setShortcut(_translate("AdminWindow", "Alt+F1"))
         self.actionDokumentasi.setText(_translate("AdminWindow", "Dokumentasi"))
+        self.actionDokumentasi.setShortcut(_translate("AdminWindow", "F1"))
         self.actionTeam.setText(_translate("AdminWindow", "Team"))

@@ -1,4 +1,4 @@
-from PyQt6.QtWidgets import QMainWindow, QApplication, QMessageBox, QTableView, QTableWidgetItem, QAbstractItemView
+from PyQt6.QtWidgets import *
 from PyQt6.QtSql import QSqlDatabase, QSqlQueryModel
 from PyQt6.QtCore import Qt, QDate, QDateTime
 
@@ -74,6 +74,8 @@ class AdminWindow(QMainWindow):
         self.ui = Ui_AdminWindow()  
         self.ui.setupUi(self)
         self.show()
+        
+        self.ui.actionTentang.triggered.connect(self.aboutWindow1)
         
         self.ui.role.addItem("Admin")
         self.ui.role.addItem("Petugas")
@@ -188,7 +190,21 @@ class AdminWindow(QMainWindow):
         self.ui.cust_hapus.clicked.connect(self.cust_hapus)
         self.ui.cust_refresh.clicked.connect(self.cust_refresh)
         
-        
+    def aboutWindow1(self, triggered): # Tentang
+        About = QDialog(self)
+        About.setWindowTitle("Toko Kelontong")
+
+        QBtn = QDialogButtonBox.StandardButton.Close
+
+        About.buttonBox = QDialogButtonBox(QBtn)
+        About.buttonBox.clicked.connect(About.close)
+
+        About.layout = QVBoxLayout()
+        message = QLabel("Version:\t\t X-SANKAREA\nGit branch:\t main\nRepository:\t Github/iamwilldev/Grocery-Store")
+        About.layout.addWidget(message)
+        About.layout.addWidget(About.buttonBox)
+        About.setLayout(About.layout)
+        About.exec()
             
     # Pengguna
     def emp_tambah(self):
@@ -850,6 +866,8 @@ class PetugasWindow(QMainWindow):
         self.ui.setupUi(self)
         self.show()
         
+        self.ui.actionTentang.triggered.connect(self.aboutWindow1)
+        
         self.cart = []
         
         db = sqlite3.connect(db_filename)
@@ -907,6 +925,23 @@ class PetugasWindow(QMainWindow):
         self.ui.cust_edit.clicked.connect(self.cust_edit)
         self.ui.cust_hapus.clicked.connect(self.cust_hapus)
         self.ui.cust_refresh.clicked.connect(self.cust_refresh)
+    
+            
+    def aboutWindow1(self, triggered): # Tentang
+        About = QDialog(self)
+        About.setWindowTitle("Toko Kelontong")
+
+        QBtn = QDialogButtonBox.StandardButton.Close
+
+        About.buttonBox = QDialogButtonBox(QBtn)
+        About.buttonBox.clicked.connect(About.close)
+
+        About.layout = QVBoxLayout()
+        message = QLabel("Version:\t\t X-SANKAREA\nGit branch:\t main\nRepository:\t Github/iamwilldev/Grocery-Store")
+        About.layout.addWidget(message)
+        About.layout.addWidget(About.buttonBox)
+        About.setLayout(About.layout)
+        About.exec()
     
     def barang_preview(self):
         db = sqlite3.connect(db_filename)
@@ -1309,7 +1344,9 @@ class PetugasWindow(QMainWindow):
 
             self.cust_refresh()
 
+
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     window = LoginWindow()
+    window.setWindowTitle("Toko Kelontong -- \t\tVersion: X-Sankarea")
     sys.exit(app.exec())
