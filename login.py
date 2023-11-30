@@ -7,8 +7,6 @@
 
 
 from PyQt6 import QtCore, QtGui, QtWidgets
-import sqlite3
-import os
 
 
 class Ui_Login(object):
@@ -17,51 +15,26 @@ class Ui_Login(object):
         Login.resize(800, 600)
         self.label = QtWidgets.QLabel(parent=Login)
         self.label.setGeometry(QtCore.QRect(0, 0, 800, 600))
-        self.label.setStyleSheet("border-image: url(Green and Orange Modern Grocery Store Banner Landscape (1).png);")
         self.label.setText("")
         self.label.setObjectName("label")
         self.label_2 = QtWidgets.QLabel(parent=Login)
         self.label_2.setGeometry(QtCore.QRect(40, 390, 651, 16))
-        self.label_2.setStyleSheet("color: rgb(0, 0, 0);\n"
-"background-color: transparent;")
         self.label_2.setObjectName("label_2")
         self.login = QtWidgets.QPushButton(parent=Login)
         self.login.setGeometry(QtCore.QRect(150, 290, 161, 41))
-        self.login.setStyleSheet("QPushButton {\n"
-"    color: white;\n"
-"    border-radius: 10px;\n"
-"    background: rgb(0, 85, 255);\n"
-"}\n"
-"\n"
-"QPushButton:hover {\n"
-"    background: rgba(0, 85, 255, 220);\n"
-"}\n"
-"\n"
-"QPushButton:pressed {\n"
-"    background: rgba(0, 85, 255, 200);\n"
-"}")
         self.login.setObjectName("login")
         self.password = QtWidgets.QLineEdit(parent=Login)
         self.password.setGeometry(QtCore.QRect(220, 210, 241, 31))
-        self.password.setStyleSheet("border-radius: 10px;\n"
-"background-color: rgb(255, 255, 255);\n"
-"color: rgb(0, 0, 0);")
+        self.password.setEchoMode(QtWidgets.QLineEdit.EchoMode.Password)
         self.password.setObjectName("password")
         self.label_3 = QtWidgets.QLabel(parent=Login)
         self.label_3.setGeometry(QtCore.QRect(70, 160, 71, 16))
-        self.label_3.setStyleSheet("color: rgb(0, 0, 0);\n"
-"background-color: transparent;")
         self.label_3.setObjectName("label_3")
         self.label_4 = QtWidgets.QLabel(parent=Login)
         self.label_4.setGeometry(QtCore.QRect(70, 220, 71, 16))
-        self.label_4.setStyleSheet("color: rgb(0, 0, 0);\n"
-"background-color: transparent;")
         self.label_4.setObjectName("label_4")
         self.username = QtWidgets.QLineEdit(parent=Login)
         self.username.setGeometry(QtCore.QRect(220, 150, 241, 31))
-        self.username.setStyleSheet("border-radius: 10px;\n"
-"background-color: rgb(255, 255, 255);\n"
-"color: rgb(0, 0, 0);")
         self.username.setObjectName("username")
 
         self.retranslateUi(Login)
@@ -70,6 +43,7 @@ class Ui_Login(object):
     def retranslateUi(self, Login):
         _translate = QtCore.QCoreApplication.translate
         Login.setWindowTitle(_translate("Login", "Login"))
+        self.label_2.setText(_translate("Login", "[+]Status"))
         self.login.setText(_translate("Login", "Login"))
         self.label_3.setText(_translate("Login", "Username"))
         self.label_4.setText(_translate("Login", "Password"))

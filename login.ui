@@ -22,9 +22,6 @@
      <height>600</height>
     </rect>
    </property>
-   <property name="styleSheet">
-    <string notr="true">border-image: url(:/img/Green and Orange Modern Grocery Store Banner Landscape (1).png);</string>
-   </property>
    <property name="text">
     <string/>
    </property>
@@ -37,10 +34,6 @@
      <width>651</width>
      <height>16</height>
     </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">color: rgb(0, 0, 0);
-background-color: transparent;</string>
    </property>
    <property name="text">
     <string>[+]Status</string>
@@ -55,21 +48,6 @@ background-color: transparent;</string>
      <height>41</height>
     </rect>
    </property>
-   <property name="styleSheet">
-    <string notr="true">QPushButton {
-	color: white;
-	border-radius: 10px;
-	background: rgb(0, 85, 255);
-}
-
-QPushButton:hover {
-	background: rgba(0, 85, 255, 220);
-}
-
-QPushButton:pressed {
-	background: rgba(0, 85, 255, 200);
-}</string>
-   </property>
    <property name="text">
     <string>Login</string>
    </property>
@@ -83,10 +61,8 @@ QPushButton:pressed {
      <height>31</height>
     </rect>
    </property>
-   <property name="styleSheet">
-    <string notr="true">border-radius: 10px;
-background-color: rgb(255, 255, 255);
-color: rgb(0, 0, 0);</string>
+   <property name="echoMode">
+    <enum>QLineEdit::Password</enum>
    </property>
   </widget>
   <widget class="QLabel" name="label_3">
@@ -97,10 +73,6 @@ color: rgb(0, 0, 0);</string>
      <width>71</width>
      <height>16</height>
     </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">color: rgb(0, 0, 0);
-background-color: transparent;</string>
    </property>
    <property name="text">
     <string>Username</string>
@@ -115,10 +87,6 @@ background-color: transparent;</string>
      <height>16</height>
     </rect>
    </property>
-   <property name="styleSheet">
-    <string notr="true">color: rgb(0, 0, 0);
-background-color: transparent;</string>
-   </property>
    <property name="text">
     <string>Password</string>
    </property>
@@ -131,11 +99,6 @@ background-color: transparent;</string>
      <width>241</width>
      <height>31</height>
     </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">border-radius: 10px;
-background-color: rgb(255, 255, 255);
-color: rgb(0, 0, 0);</string>
    </property>
   </widget>
  </widget>
