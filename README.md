@@ -18,11 +18,12 @@ This is a grocery store desktop application for stock, customer, and cashier man
 </p>
 
 ![image](https://lh3.googleusercontent.com/u/0/drive-viewer/AK7aPaCeMYDQqt0b9GqwzbSDFg8uwproxSJWzAbK6TqIVN-Tp54Txw8VbPhOa31ACWCE1p5CLl_xv_G8BUCwkauPIz1FMh_B=w2940-h1606)
-<img width="500" src="https://lh3.googleusercontent.com/u/0/drive-viewer/AK7aPaCeMYDQqt0b9GqwzbSDFg8uwproxSJWzAbK6TqIVN-Tp54Txw8VbPhOa31ACWCE1p5CLl_xv_G8BUCwkauPIz1FMh_B=w2940-h1606">
 
-| Anime Style                                                                                                                  | Interactive Colorization                                                                                                     |
-| ---------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| <img width="500" src="https://user-images.githubusercontent.com/8450091/205465788-86902f1a-0953-4f3b-8c7a-4d4f2dc25713.jpg"> | <img width="500" src="https://user-images.githubusercontent.com/8450091/205465819-58834a02-a437-4b47-93c8-ff3f3fc0672b.png"> |
+## Admin Menu
+
+| Manage Pengguna                                                                                                                                                                           | Manage Barang                                                                                                                |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| <img width="500" src="https://lh3.googleusercontent.com/u/0/drive-viewer/AK7aPaA0gLR4oCi5aB4FntnSAhS4i3ycjsKmudsMn8yAhdyNpF2fTvKn1Ebkn5d9QrKeg1IxrhBOFeCF2QxSssFlqLsd76yWrA=w2940-h1606"> | <img width="500" src="https://user-images.githubusercontent.com/8450091/205465819-58834a02-a437-4b47-93c8-ff3f3fc0672b.png"> |
 
 | Portrait Mode                                                                                                                | Grayscale Background                                                                                                         |
 | ---------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
