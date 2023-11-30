@@ -59,7 +59,7 @@ This is a grocery store desktop application for stock, customer, and cashier man
 
 ## Building from Source
 
-Ensure you have [Python 3.12](https://www.python.org/downloads/) and [Git](https://github.com/git-guides/install-git) installed.
+Ensure you have [Python 3.11.5](https://www.python.org/downloads/) and [Git](https://github.com/git-guides/install-git) installed.
 
 Open a terminal and run the following commands.
 
