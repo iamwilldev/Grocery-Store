@@ -21,13 +21,23 @@ This is a grocery store desktop application for stock, customer, and cashier man
 
 ## Admin Menu
 
-| Manage Pengguna                                                                                                                                                                           | Manage Barang                                                                                                                |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| <img width="500" src="https://lh3.googleusercontent.com/u/0/drive-viewer/AK7aPaA0gLR4oCi5aB4FntnSAhS4i3ycjsKmudsMn8yAhdyNpF2fTvKn1Ebkn5d9QrKeg1IxrhBOFeCF2QxSssFlqLsd76yWrA=w2940-h1606"> | <img width="500" src="https://user-images.githubusercontent.com/8450091/205465819-58834a02-a437-4b47-93c8-ff3f3fc0672b.png"> |
+| Manage Pengguna                                                                                                                                                                           | Manage Barang                                                                                                                                                                             |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img width="500" src="https://lh3.googleusercontent.com/u/0/drive-viewer/AK7aPaA0gLR4oCi5aB4FntnSAhS4i3ycjsKmudsMn8yAhdyNpF2fTvKn1Ebkn5d9QrKeg1IxrhBOFeCF2QxSssFlqLsd76yWrA=w2940-h1606"> | <img width="500" src="https://lh3.googleusercontent.com/u/0/drive-viewer/AK7aPaBh5NNCJiVSTI1Hyh2QXVDZtY1T66PV9e-c7MKDTQkKprX0T7gKRf9P0vuqVM0coSGXzXgG-w8FLlC3nUYH1mI8vS0mlg=w2940-h1606"> |
 
-| Portrait Mode                                                                                                                | Grayscale Background                                                                                                         |
-| ---------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| <img width="500" src="https://user-images.githubusercontent.com/8450091/205465880-b9549d26-aaf7-46dc-967f-d79148ac1f03.jpg"> | <img width="500" src="https://user-images.githubusercontent.com/8450091/205465881-fb1a61c7-734c-4c7d-b11c-edb14bf2deaa.jpg"> |
+| Manage Supplier                                                                                                                                                                           | Manage Customer                                                                                                                                                                           |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img width="500" src="https://lh3.googleusercontent.com/u/0/drive-viewer/AK7aPaDNmOR94W7Z-F9v8sBYyslpY7n-CpNcXwunAdkZ7g0qCtfGdMCCh-2Plae3D5NTb4Ku9G30x0BilHpEGjb_VJcF_Hj20g=w2940-h1606"> | <img width="500" src="https://lh3.googleusercontent.com/u/0/drive-viewer/AK7aPaAA3vwoMhOvKOnD2kyQ9W-ikMbXilEsg5ybbKmQ-JCgDdFu3FV8BGqYokSTCsC38seUPBX7aERtdzL-PKRj8x9CsqDFUA=w2940-h1606"> |
+
+## Petugas Menu
+
+| Grocery Store                                                                                                                                                                             | Cart                                                                                                                                                                                    |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img width="500" src="https://lh3.googleusercontent.com/u/0/drive-viewer/AK7aPaCFJz1wapt1AEQZsC0BP69uROigQIXVhkF-wsEYLZaDhjUPEPxejqHCTEoP5s04aKgd_brn5ZOLIfTyVTXgXgj8uk-rzA=w2940-h1606"> | <img width="500" src="https://lh3.googleusercontent.com/u/0/drive-viewer/AK7aPaBgx4UB1PwzhZJwQf5VOVryyWZQgKLiFM-DdtXw8j6UthBOfp7o4WTx68nmGqwCuqld17qfRKCPdGloapaTFRTrvJUH=w2940-h1606"> |
+
+| Customer Area                                                                                                                                                                             |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img width="500" src="https://lh3.googleusercontent.com/u/0/drive-viewer/AK7aPaA_m7wM_t6w1m-P8JXDGisd8EUGClzczRC2eP2kQ5wU3JGSsQQy-CebXOk-IabA9na35q3tMYoU56Y6QLtnsX1tKuXo_Q=w2940-h1606"> |
 
 ## Installation
 
