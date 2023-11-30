@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Grocery Store | Kasir</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QTabWidget" name="tabWidget">
@@ -65,6 +65,9 @@
        <number>0</number>
       </property>
       <widget class="QWidget" name="page">
+       <attribute name="title">
+        <string>Barang</string>
+       </attribute>
        <widget class="QLabel" name="label_22">
         <property name="geometry">
          <rect>
@@ -398,6 +401,9 @@ color: rgb(0, 0, 0);</string>
        </widget>
       </widget>
       <widget class="QWidget" name="page_2">
+      <attribute name="title">
+        <string>Keranjang</string>
+       </attribute>
        <widget class="QLabel" name="label_4">
         <property name="geometry">
          <rect>
@@ -1002,18 +1008,7 @@ color: rgb(0, 0, 0);</string>
     <property name="title">
      <string>Pengguna</string>
     </property>
-    <addaction name="actionLogin"/>
-    <addaction name="actionProfil"/>
     <addaction name="actionLogout"/>
-   </widget>
-   <widget class="QMenu" name="menuKelola">
-    <property name="title">
-     <string>Kelola</string>
-    </property>
-    <addaction name="actionBarang"/>
-    <addaction name="actionPengguna"/>
-    <addaction name="actionCustomer"/>
-    <addaction name="actionTransaksi"/>
    </widget>
    <widget class="QMenu" name="menuBantuan">
     <property name="title">
@@ -1021,10 +1016,8 @@ color: rgb(0, 0, 0);</string>
     </property>
     <addaction name="actionTentang"/>
     <addaction name="actionDokumentasi"/>
-    <addaction name="actionTeam"/>
    </widget>
    <addaction name="menuPengguna"/>
-   <addaction name="menuKelola"/>
    <addaction name="menuBantuan"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
@@ -1041,6 +1034,9 @@ color: rgb(0, 0, 0);</string>
   <action name="actionLogout">
    <property name="text">
     <string>Logout</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Q</string>
    </property>
   </action>
   <action name="actionBarang">
@@ -1062,10 +1058,16 @@ color: rgb(0, 0, 0);</string>
    <property name="text">
     <string>Tentang</string>
    </property>
+   <property name="shortcut">
+    <string>Alt+F1</string>
+   </property>
   </action>
   <action name="actionDokumentasi">
    <property name="text">
     <string>Dokumentasi</string>
+   </property>
+   <property name="shortcut">
+    <string>F1</string>
    </property>
   </action>
   <action name="actionTeam">
@@ -1080,5 +1082,22 @@ color: rgb(0, 0, 0);</string>
   </action>
  </widget>
  <resources/>
- <connections/>
+ <connections>
+  <connection>
+   <sender>actionLogout</sender>
+   <signal>triggered()</signal>
+   <receiver>PetugasWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>299</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
 </ui>

@@ -7,9 +7,6 @@
 
 
 from PyQt6 import QtCore, QtGui, QtWidgets
-import sqlite3
-import os
-
 
 class Ui_Login(object):
     def setupUi(self, Login):
@@ -46,6 +43,7 @@ class Ui_Login(object):
         self.password.setStyleSheet("border-radius: 10px;\n"
 "background-color: rgb(255, 255, 255);\n"
 "color: rgb(0, 0, 0);")
+        self.password.setEchoMode(QtWidgets.QLineEdit.EchoMode.Password)
         self.password.setObjectName("password")
         self.label_3 = QtWidgets.QLabel(parent=Login)
         self.label_3.setGeometry(QtCore.QRect(70, 160, 71, 16))
@@ -70,6 +68,7 @@ class Ui_Login(object):
     def retranslateUi(self, Login):
         _translate = QtCore.QCoreApplication.translate
         Login.setWindowTitle(_translate("Login", "Login"))
+        self.label_2.setText(_translate("Login", "[+]Status"))
         self.login.setText(_translate("Login", "Login"))
         self.label_3.setText(_translate("Login", "Username"))
         self.label_4.setText(_translate("Login", "Password"))
