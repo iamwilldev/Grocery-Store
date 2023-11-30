@@ -1,7 +1,7 @@
 # Grocery-Store
 
 <h1 align="center">
-<img align="center" height="80px" width="80px" src="https://avatars.githubusercontent.com/u/128199128?v=4" alt="Kai-icon">
+<img align="center" height="80px" width="80px" src="https://lh3.googleusercontent.com/u/0/drive-viewer/AK7aPaDX9W6wWoAo3RNaRbfJfYCP0YSWLJqEqoFPPQuguOJpTjCDg8gpfOwjwHKsBlAs-ao27FrK_syLwZsniTwyZhGU-6RK5g=w2940-h1606" alt="Kai-icon">
  Kai
 </h1>
 <p align="center">
