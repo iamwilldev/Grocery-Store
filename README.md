@@ -17,7 +17,15 @@ This is a grocery store desktop application for stock, customer, and cashier man
   <a href="#links">Links</a>
 </p>
 
-![image](https://github.com/SenZmaKi/Senpwai/assets/90490506/04a9cfba-7961-48b8-b8ff-392aaef5b4d4)
+![image](https://drive.google.com/file/d/10AiCXjYuP17sorU_T0uGeP5A47hLfQhX/view)
+
+| Anime Style                                                                                                                  | Interactive Colorization                                                                                                     |
+| ---------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| <img width="500" src="https://user-images.githubusercontent.com/8450091/205465788-86902f1a-0953-4f3b-8c7a-4d4f2dc25713.jpg"> | <img width="500" src="https://user-images.githubusercontent.com/8450091/205465819-58834a02-a437-4b47-93c8-ff3f3fc0672b.png"> |
+
+| Portrait Mode                                                                                                                | Grayscale Background                                                                                                         |
+| ---------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| <img width="500" src="https://user-images.githubusercontent.com/8450091/205465880-b9549d26-aaf7-46dc-967f-d79148ac1f03.jpg"> | <img width="500" src="https://user-images.githubusercontent.com/8450091/205465881-fb1a61c7-734c-4c7d-b11c-edb14bf2deaa.jpg"> |
 
 ## Installation
 
