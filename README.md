@@ -17,8 +17,8 @@ This is a grocery store desktop application for stock, customer, and cashier man
   <a href="#links">Links</a>
 </p>
 
-![image](https://drive.google.com/file/d/10AiCXjYuP17sorU_T0uGeP5A47hLfQhX/view)
-<img width="500" src="https://drive.google.com/file/d/10AiCXjYuP17sorU_T0uGeP5A47hLfQhX/view">
+![image](https://lh3.googleusercontent.com/u/0/drive-viewer/AK7aPaCeMYDQqt0b9GqwzbSDFg8uwproxSJWzAbK6TqIVN-Tp54Txw8VbPhOa31ACWCE1p5CLl_xv_G8BUCwkauPIz1FMh_B=w2940-h1606)
+<img width="500" src="https://lh3.googleusercontent.com/u/0/drive-viewer/AK7aPaCeMYDQqt0b9GqwzbSDFg8uwproxSJWzAbK6TqIVN-Tp54Txw8VbPhOa31ACWCE1p5CLl_xv_G8BUCwkauPIz1FMh_B=w2940-h1606">
 
 | Anime Style                                                                                                                  | Interactive Colorization                                                                                                     |
 | ---------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
