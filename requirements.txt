@@ -1,3 +1,4 @@
+pip
 PyQt6==6.4.2
 PyQt6-Tools
 python_version >= "3.11.5"
