@@ -1,7 +1,7 @@
 # Grocery-Store
 
 <h1 align="center">
-<img align="center" height="80px" width="80px" src="https://lh3.googleusercontent.com/u/0/drive-viewer/AK7aPaDX9W6wWoAo3RNaRbfJfYCP0YSWLJqEqoFPPQuguOJpTjCDg8gpfOwjwHKsBlAs-ao27FrK_syLwZsniTwyZhGU-6RK5g=w2940-h1606" alt="Kai-icon">
+<img align="center" height="80px" width="80px" src="https://github.com/iamwilldev/Kumpulan-Dataset/blob/cc67a9a3c8f5704a8f63832db0adc7b21c24aec7/Github/kai.png" alt="Kai-icon">
  Kai
 </h1>
 <p align="center">
@@ -14,27 +14,27 @@ This is a grocery store desktop application for stock, customer, and cashier man
   <a href="#support">Support</a> •
 </p>
 
-![image](https://lh3.googleusercontent.com/u/0/drive-viewer/AK7aPaCeMYDQqt0b9GqwzbSDFg8uwproxSJWzAbK6TqIVN-Tp54Txw8VbPhOa31ACWCE1p5CLl_xv_G8BUCwkauPIz1FMh_B=w2940-h1606)
+![image](https://github.com/iamwilldev/Kumpulan-Dataset/blob/cc67a9a3c8f5704a8f63832db0adc7b21c24aec7/Github/login.png)
 
 ## Admin Menu
 
 | Manage Pengguna                                                                                                                                                                           | Manage Barang                                                                                                                                                                             |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <img width="500" src="https://lh3.googleusercontent.com/u/0/drive-viewer/AK7aPaA0gLR4oCi5aB4FntnSAhS4i3ycjsKmudsMn8yAhdyNpF2fTvKn1Ebkn5d9QrKeg1IxrhBOFeCF2QxSssFlqLsd76yWrA=w2940-h1606"> | <img width="500" src="https://lh3.googleusercontent.com/u/0/drive-viewer/AK7aPaBh5NNCJiVSTI1Hyh2QXVDZtY1T66PV9e-c7MKDTQkKprX0T7gKRf9P0vuqVM0coSGXzXgG-w8FLlC3nUYH1mI8vS0mlg=w2940-h1606"> |
+| <img width="500" src="https://github.com/iamwilldev/Kumpulan-Dataset/blob/cc67a9a3c8f5704a8f63832db0adc7b21c24aec7/Github/admin-managePengguna.png"> | <img width="500" src="https://github.com/iamwilldev/Kumpulan-Dataset/blob/cc67a9a3c8f5704a8f63832db0adc7b21c24aec7/Github/admin-manageBarang.png"> |
 
 | Manage Supplier                                                                                                                                                                           | Manage Customer                                                                                                                                                                           |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <img width="500" src="https://lh3.googleusercontent.com/u/0/drive-viewer/AK7aPaDNmOR94W7Z-F9v8sBYyslpY7n-CpNcXwunAdkZ7g0qCtfGdMCCh-2Plae3D5NTb4Ku9G30x0BilHpEGjb_VJcF_Hj20g=w2940-h1606"> | <img width="500" src="https://lh3.googleusercontent.com/u/0/drive-viewer/AK7aPaAA3vwoMhOvKOnD2kyQ9W-ikMbXilEsg5ybbKmQ-JCgDdFu3FV8BGqYokSTCsC38seUPBX7aERtdzL-PKRj8x9CsqDFUA=w2940-h1606"> |
+| <img width="500" src="https://github.com/iamwilldev/Kumpulan-Dataset/blob/cc67a9a3c8f5704a8f63832db0adc7b21c24aec7/Github/admin-manageSupplier.png"> | <img width="500" src="https://github.com/iamwilldev/Kumpulan-Dataset/blob/cc67a9a3c8f5704a8f63832db0adc7b21c24aec7/Github/admin-manageCustomer.png"> |
 
 ## Petugas Menu
 
 | Grocery Store                                                                                                                                                                             | Cart                                                                                                                                                                                    |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <img width="500" src="https://lh3.googleusercontent.com/u/0/drive-viewer/AK7aPaCFJz1wapt1AEQZsC0BP69uROigQIXVhkF-wsEYLZaDhjUPEPxejqHCTEoP5s04aKgd_brn5ZOLIfTyVTXgXgj8uk-rzA=w2940-h1606"> | <img width="500" src="https://lh3.googleusercontent.com/u/0/drive-viewer/AK7aPaBgx4UB1PwzhZJwQf5VOVryyWZQgKLiFM-DdtXw8j6UthBOfp7o4WTx68nmGqwCuqld17qfRKCPdGloapaTFRTrvJUH=w2940-h1606"> |
+| <img width="500" src="https://github.com/iamwilldev/Kumpulan-Dataset/blob/cc67a9a3c8f5704a8f63832db0adc7b21c24aec7/Github/GroceryStore.png"> | <img width="500" src="https://github.com/iamwilldev/Kumpulan-Dataset/blob/cc67a9a3c8f5704a8f63832db0adc7b21c24aec7/Github/Cart-GroceryStore.png"> |
 
 | Customer Area                                                                                                                                                                             |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <img width="500" src="https://lh3.googleusercontent.com/u/0/drive-viewer/AK7aPaA_m7wM_t6w1m-P8JXDGisd8EUGClzczRC2eP2kQ5wU3JGSsQQy-CebXOk-IabA9na35q3tMYoU56Y6QLtnsX1tKuXo_Q=w2940-h1606"> |
+| <img width="500" src="https://github.com/iamwilldev/Kumpulan-Dataset/blob/cc67a9a3c8f5704a8f63832db0adc7b21c24aec7/Github/petugas-customerArea.png"> |
 
 ## Features
 
